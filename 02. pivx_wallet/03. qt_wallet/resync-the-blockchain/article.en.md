@@ -3,7 +3,7 @@ title: 'Resync the Blockchain'
 date: '14-02-2021 11:40'
 taxonomy:
     category:
-        - 'Core Wallet'
+        - 'PIVX Core Wallet'
     tag:
         - wallet
         - syncing

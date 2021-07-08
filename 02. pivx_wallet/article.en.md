@@ -2,9 +2,11 @@
 title: 'The PIVX Core Wallet'
 date: '01-08-2014 00:00'
 slug: pivx-core-wallet
+description: 'Your journey with PIVX starts here'
+image: wallets.png
 taxonomy:
     category:
-        - 'PIVX Documentation'
+        - 'PIVX Core Wallet'
     author:
         - 'The PIVX Team'
 ---

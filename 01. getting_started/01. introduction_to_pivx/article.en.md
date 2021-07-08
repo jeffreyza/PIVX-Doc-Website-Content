@@ -4,7 +4,7 @@ date: '01-08-2014 00:00'
 slug: introduction-to-pivx
 taxonomy:
     category:
-        - 'PIVX Documentation'
+        - 'Getting Started'
     author:
         - 'The PIVX Team'
 ---

@@ -3,7 +3,7 @@ title: 'PIVX Core Wallet Startup Issues'
 date: '14-02-2021 11:41'
 taxonomy:
     category:
-        - 'Core Wallet'
+        - 'PIVX Core Wallet'
     tag:
         - wallet
         - error
