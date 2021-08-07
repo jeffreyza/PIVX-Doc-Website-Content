@@ -10,3 +10,5 @@ taxonomy:
 ---
 
 ### Glossary
+
+Glossary of the main PIVX terms and definitions

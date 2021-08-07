@@ -10,3 +10,5 @@ taxonomy:
 ---
 
 ### Command Line Core Wallet
+
+Launching/monitoring the core wallet on a headless server

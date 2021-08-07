@@ -1,7 +1,7 @@
 ---
-title: 'Staking'
+title: 'Cold-Staking your PIV'
 date: '01-08-2014 00:00'
-slug: staking
+slug: cold-staking
 taxonomy:
     category:
         - 'Staking'
@@ -9,4 +9,4 @@ taxonomy:
         - 'The PIVX Team'
 ---
 
-### Staking
+### Cold Staking

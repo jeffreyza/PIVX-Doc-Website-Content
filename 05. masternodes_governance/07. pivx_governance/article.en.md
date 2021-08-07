@@ -10,3 +10,5 @@ taxonomy:
 ---
 
 ### PIVX Governance
+
+The PIVX Governance model, intro, create and submit a proposal

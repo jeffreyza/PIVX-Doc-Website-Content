@@ -10,3 +10,5 @@ taxonomy:
 ---
 
 ### Getting started with the PIVX Core Wallet
+
+downloading, versions, upgrades, system requirements etc.

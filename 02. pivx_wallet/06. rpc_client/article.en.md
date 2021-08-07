@@ -10,3 +10,5 @@ taxonomy:
 ---
 
 ### RPC Client
+
+Intro on RPC client, commands

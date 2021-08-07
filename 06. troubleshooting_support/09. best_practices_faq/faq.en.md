@@ -14,20 +14,20 @@ faqitems:
     sectiontitle: Generic Questions
     questions:
       - question: 'Generic Question 1'
-        response: 'Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat them accusamus labore sustainable VHS.'
-      - question: Generic Question 2
-        response: r butcher vicetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-      - question: Generic Question 3
-        response: Animciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        response: 'Response to generic question 1'
+      - question: 'Generic Question 2'
+        response: 'Response to generic question 2'
+      - question: 'Generic Question 3'
+        response: 'Response to generic question 3'
   - corewallet:
     sectiontitle: Core Wallet
     questions:
-      - question: Core Wallet 1
-        response: Anim pariatur cliche reprehenderit, enim eiusmod high life accusamuabore sustainable VHS.
-      - question: Core Wallet 2
-        response: r butcher vicetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-      - question: Core Wallet 3
-        response: Animciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      - question: 'Core Wallet 1'
+        response: 'Response to Core Wallet question 1'
+      - question: 'Core Wallet 2'
+        response: 'Response to Core Wallet question 2'
+      - question: 'Core Wallet 3'
+        response: 'Response to Core Wallet question 3'
 
 ---
 

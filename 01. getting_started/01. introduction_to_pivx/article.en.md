@@ -10,3 +10,5 @@ taxonomy:
 ---
 
 ### Introduction to PIVX
+
+What makes PIVX unique compared with other ccies etc.
