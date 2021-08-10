@@ -10,7 +10,7 @@ Information and specs at [PIVX.org](https://www.pivx.org/). Join the community a
 ## Support Website
 
 This repository is the master repository for the pivx.org/documentation website.
-All pages are based on the Grav Markdown format, supported by custom themes/layouts.
+All pages are based on the Grav Markdown format (https://learn.getgrav.org/17/content/markdown), supported by custom themes/layouts.
 
 ## Contribution Process
 
