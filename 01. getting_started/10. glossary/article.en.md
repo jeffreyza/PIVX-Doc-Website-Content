@@ -9,6 +9,17 @@ taxonomy:
         - 'Bob Burns'
 ---
 
-### Glossary
+### Glossary of the main PIVX terms and definitions
 
-Glossary of the main PIVX terms and definitions
+Consensus Algorithm
+
+Proof of Stake
+
+PIV
+
+zPIV
+
+Staking
+
+Cold Staking
+

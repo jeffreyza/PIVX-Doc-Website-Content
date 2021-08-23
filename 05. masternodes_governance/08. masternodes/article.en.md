@@ -55,7 +55,6 @@ If you choose your own location ensure that you record where that is.
 
 First of all, make sure that you have 10,000 PIV in your wallet (in fact, 10,001 PIV to make sure you are able to cover the transaction fees).
 
-
     Unlock the wallet.
     Go to “Masternodes” tab.
     Click “Create Masternode Controller“.
