@@ -69,6 +69,50 @@ These steps are shared between the Owner Wallet ("Cold Wallet") and the Staker W
 
 To send additional delegations, using the same addresses-pair, re-run step 3 of this guide.
 
+### Step-by-step setup (QT client)
+
+These steps are shared between the Owner Wallet ("Cold Wallet") and the Staker Wallet ("Hot Wallet"). If you control both wallets, you'll have to run all of them sequentially. If someone is providing you with a staking service each party will have to run his own steps sequentially.
+
+1. Staker Wallet: Generate a “staking address”
+  * Navigate to the "Cold Staking" section / "Staker" tab of the core wallet
+  * Click on the "Create Cold Staking Address" menu (Input your wallet passphrase if locked)
+  * Input the required details (address Label is for your reference only)
+  * Click 'Generate' and share the address/QR Code with the owner of the Owner Wallet (see step 3)
+! NOTE: You don’t need to create a new staking address for each delegation. You can reuse your previously generated addresses. To list them, click on "My Cold Staking Addresses" on the main cold staking screen
+
+![Manage Staking Addresses.png](1.manage_staking_addresses.png?classes=center&resize=450)
+
+2. Owner Wallet: Generate an “owner address” (if you don’t have one already):
+	```
+	pivx-cli getnewaddress
+	```
+	
+3. Owner Wallet: Create a "cold stake delegation” in favor of the Staking Address:
+  * Navigate to the "Cold Staking" section / "Delegation" tab of the core wallet
+  * Input the cold staking address/label generated at step 1 (or communicated by your cold staking provider)
+  * Input the amount to delegate
+  * Input the owner address generated at step 2 (If the owner address is omitted, a new address is automatically generated from the wallet)
+  * You can use the 'Coin Control' menu to select the exact UTXO you want to cold stake
+
+![Manage Staking Addresses.png](1.manage_staking_addresses.png?classes=center&resize=450)
+	
+4. Staker Wallet: Whitelist the owner address on your staker wallet (if you haven’t already). This is done from the command line/debug console:
+	```
+	pivx-cli delegatoradd <ownerAddress>
+	```
+
+	! NOTE: Once a delegator address is whitelisted, it remains so, including for successive delegations. To remove a particular address from the whitelist, run:
+	```
+	pivx-cli delegatorremove <ownerAddress>
+	```
+
+	! NOTE: To view the current whitelisted addresses, do
+	```
+	pivx-cli listdelegators
+	```
+
+To send additional delegations, using the same addresses-pair, re-run step 3 of this guide.
+
 ### Troubleshooting staking issues
 For any issues related to staking activation / rewards, please make sure you read the relevant FAQ at [Troubleshooting Staking](/staking/staking-faq)
 
