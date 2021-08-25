@@ -1,8 +1,8 @@
 ---
-title: 'Mobile Wallets'
+title: 'Mobile & Hardware Wallets'
 date: '01-08-2014 00:00'
-slug: mobile-wallets
-description: 'Discover some of the third-party applications our community uses'
+slug: mobile-hardware-wallets
+description: 'Discover some of the third-party wallets our community uses'
 image: wallets.png
 taxonomy:
     category:

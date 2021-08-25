@@ -4,7 +4,7 @@ date: '01-08-2014 00:00'
 slug: pivx-best-practices
 taxonomy:
     category:
-        - 'Getting Started'
+        - 'Troubleshooting'
     author:
         - 'The PIVX Team'
 ---
