@@ -28,7 +28,7 @@ All proposals are visible on the dedicated section of the PIVX website: [PIVX Pr
 ### Drafting a proposal
 
 1. Discuss your proposal with the community on Discord to gauge interest from the community/refine your idea
-2. Detail it in a forum post in the pre-proposal section: [https://forum.pivx.org/forums/pre-proposal-discussions.5/]
+2. Detail it in a forum post in the [pre-proposal section](https://forum.pivx.org/forums/pre-proposal-discussions.5/)
 3. Gather feedback from the community. Adjust the content of the proposal and budget accordingly.
 4. Create the final proposal in the [Budget & Governance Proposals Section](https://forum.pivx.org/forums/budget-governance-proposals.4/)
 

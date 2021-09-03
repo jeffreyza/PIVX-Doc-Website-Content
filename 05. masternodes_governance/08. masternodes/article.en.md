@@ -218,3 +218,13 @@ Before you exit the editor, there are 3 parameters that you need to update with 
         3) Can I use this 10,000 PIVX normally on my wallet then again, and sell it or stake it normally like before?
 
     Yes! If your wallet is unlocked for staking, it will automatically stake these 10,000 coins and you can spend them at any time.
+    
+    
+### Other things
+
+Requirements
+How to set-up a masternode
+Troubleshooting (Common issues/FAQ)
+
+Voting on a governance proposal
+

@@ -10,3 +10,11 @@ taxonomy:
 ---
 
 ### Using the PIVX Core QT Wallet
+
+* Description of UI
+* How-to
+
+* Security Considerations
+* Startup / initial synchronisation
+* Spending / Receiving PIV (Transparent/Shielded/confirmations etc.)
+* Advanced configuration / Wallet debugging options
