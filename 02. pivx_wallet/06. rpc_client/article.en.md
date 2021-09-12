@@ -9,6 +9,4 @@ taxonomy:
         - 'The PIVX Team'
 ---
 
-### RPC Client
-
 Intro on RPC client, commands

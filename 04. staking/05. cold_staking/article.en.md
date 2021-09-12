@@ -9,8 +9,6 @@ taxonomy:
         - 'The PIVX Team'
 ---
 
-## Cold Staking
-
 Cold Staking consists in delegating the staking of your PIVs to an online ('Hot') wallet while they remain safely stored in an offline ('Cold') wallet.
 
 The cold wallet can be:

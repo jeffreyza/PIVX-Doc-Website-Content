@@ -9,8 +9,6 @@ taxonomy:
         - 'The PIVX Team'
 ---
 
-### Masternodes
-
 #### Introduction
 
 This tutorial will guide you in detail through the steps necessary to setup a PIVX masternode on Ubuntu 18.04 64-bit remote server (VPS) that is controlled via your local Control wallet. Your local wallet is not required to be kept open and you can store it as a cold wallet whilst still collecting masternode payments. There are other ways to setup masternode, but this one is highly recommended as it’s one of the most secure ways. If you need any additional help, feel free to join PIVX Discord and ask for a help in #support channel. DO NOT receive any help or assistance through private messages, because there are many impersonators showing up as PIVX team members that are trying to steal coins from you! They might look legit, but it’s high likely they are scammers. No one ever from PIVX team will contact you privately and offer you help. Every help will be offered in public support channel!

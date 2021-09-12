@@ -31,6 +31,4 @@ faqitems:
 
 ---
 
-### Mobile/Hardware wallets FAQ
-
 

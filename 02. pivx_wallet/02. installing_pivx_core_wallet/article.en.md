@@ -9,8 +9,6 @@ taxonomy:
         - 'The PIVX Team'
 ---
 
-### Installing the PIVX Core Wallet
-
 downloading, versions, upgrades, system requirements etc.
 
 * How-to
@@ -18,3 +16,18 @@ downloading, versions, upgrades, system requirements etc.
 * Downloading the wallet
 * Installation
 * Startup / initial synchronisation
+
+cd ~ && wget https://github.com/PIVX-Project/PIVX/releases/download/v5.3.0/pivx-5.3.0-Which.ever.one.is.right.for.your.pc
+
+tar -zxvf pivx-5.3.0-aarch64-linux-gnu.tar.gz && sudo rm -f pivx-5.3.0-aarch64-linux-gnu.tar.gz
+
+
+So before you enter "bin" there should be a file name "install-params.sh"
+You need to execute that first.  "./pivx-params.sh"
+
+./pivxd -daemon
+
+./pivx-cli help
+
+
+

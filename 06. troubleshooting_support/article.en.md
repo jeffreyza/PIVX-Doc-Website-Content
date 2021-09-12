@@ -11,6 +11,4 @@ taxonomy:
         - 'The PIVX Team'
 ---
 
-### Troubleshooting And Support
-
 Description of the support model, link to the Discord etc.

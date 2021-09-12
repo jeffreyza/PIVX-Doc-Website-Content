@@ -55,6 +55,5 @@ faqitems:
         Steps 3/4 can also be ran from the command line using: **pivxd -daemon -resync**"
 ---
 
-### Core Wallet Best Practices FAQ
 
 

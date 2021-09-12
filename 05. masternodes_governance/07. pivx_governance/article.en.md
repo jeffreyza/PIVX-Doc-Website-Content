@@ -9,8 +9,6 @@ taxonomy:
         - 'The PIVX Team'
 ---
 
-### PIVX Governance
-
 PIVX is a DAO (Decentralized Autonomous Organization); it has no employees, no management, only community members who got together to advance the project.
 
 Although a significant portion of the work is done by volunteers, a monthly budget of 43'200 PIV is allocated to proposals submitted by the community and voted upon by masternode owners (1 masternode = 1 vote).

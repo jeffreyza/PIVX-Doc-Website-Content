@@ -11,8 +11,6 @@ taxonomy:
         - 'The PIVX Team'
 ---
 
-### Welcome to the PIVX Documentation website
-
 Welcome to the PIVX Documentation website, check out our quickstart guides, tutorials, and FAQs!
 
 The community is very active on Discord, so [Join us on the PIVX Discord!](https://discord.pivx.org/)

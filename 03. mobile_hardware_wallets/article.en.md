@@ -11,8 +11,6 @@ taxonomy:
         - 'The PIVX Team'
 ---
 
-### Mobile & Hardware Wallets
-
 As an alternative to running a full PIVX Core Wallet, you can use either a mobile or a hardware wallet to manage your PIVs. This section contains tutorials for some of the mobile/hardware wallets members of the PIVX community use.
 
 PIVX doesn't offer an official mobile wallet at the moment (the version available previously requires an upgrade to be compatible with the latest version of the PIVX protocol).

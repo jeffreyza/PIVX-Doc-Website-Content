@@ -42,6 +42,4 @@ faqitems:
         response: "Just login to your cold wallet and spend them! It will break the cold staking for the UTXO you are spending, so if you want to stake the remainder of that UTXO you will need to put in place a new staking delegation."
 ---
 
-### Troubleshooting Staking FAQ
-
 

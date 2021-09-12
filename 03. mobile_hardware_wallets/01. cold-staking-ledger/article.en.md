@@ -16,8 +16,6 @@ classifier:
             class: tutotable
 ---
 
-### Setup Cold Staking With Ledger Hardware Wallet
-
 ! NOTE: The following guide is for Ledger Only; Don't use Trezor addresses for cold staking, as PET4L cannot spend P2CS utxos yet.
 
 **Prerequisites:**

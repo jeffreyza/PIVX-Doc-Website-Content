@@ -9,8 +9,6 @@ taxonomy:
         - 'The PIVX Team'
 ---
 
-### PIVX Best Practices
-
 The below section is a non extensive list of best practices that will help you secure your PIVs and help you avoid the most common pitfalls you could get into.
 
 ! NOTE: Scammers are everywhere! Please be extra-cautious when asking for support, and never solicit or accept help via private messages on any of our PIVX communication channels/social media. Please report any user asking for your wallet.dat/private key/any other personal information to the #security channel in the PIVX Discord server.

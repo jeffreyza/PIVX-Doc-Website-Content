@@ -9,8 +9,6 @@ taxonomy:
         - 'The PIVX Team'
 ---
 
-## Staking with PIVX Core Wallet (Hot Staking)
-
 Staking with the PIVX Core Wallet requires very little setup.
 
 ### Step-by-step setup

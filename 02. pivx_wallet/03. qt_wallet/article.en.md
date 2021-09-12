@@ -9,8 +9,6 @@ taxonomy:
         - 'The PIVX Team'
 ---
 
-### Using the PIVX Core QT Wallet
-
 * Description of UI
 * How-to
 

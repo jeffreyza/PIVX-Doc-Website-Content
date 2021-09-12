@@ -31,6 +31,4 @@ faqitems:
 
 ---
 
-### Best Practices / FAQ
-
 

@@ -11,6 +11,4 @@ taxonomy:
         - 'The PIVX Team'
 ---
 
-### Masternodes And Governance
-
 Description of the PIVX governance model with links to the whitepaper, requirements to host a masternode etc.

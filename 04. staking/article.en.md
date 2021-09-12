@@ -11,8 +11,6 @@ taxonomy:
         - 'The PIVX Team'
 ---
 
-## Staking PIVX
-
 The PIVX blockchain is a Proof of Stake system that encourages its users to secure and operate the network by staking their coins. If you're not familiar with the PIVX PoS concepts, or with the PIVX Core Wallet we recommend you visit our [Getting Started](/getting-started) page prior to reading this. 
 
 Stakers are responsible for adding new blocks to the blockchain, and receive rewards when they do so.

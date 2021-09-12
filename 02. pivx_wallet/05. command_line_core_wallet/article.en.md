@@ -9,8 +9,6 @@ taxonomy:
         - 'The PIVX Team'
 ---
 
-### Command Line Core Wallet
-
 The process to launch the PIVX Core Wallet in command line is called pivxd and can be found in the bin folder of the pivx core wallet.
 
 The base command to launch the pivx core wallet is:

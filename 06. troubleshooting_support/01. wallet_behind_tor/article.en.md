@@ -8,5 +8,3 @@ taxonomy:
     author:
         - 'The PIVX Team'
 ---
-
-### Setting up a masternode/core wallet behind Tor
