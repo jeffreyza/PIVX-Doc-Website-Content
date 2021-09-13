@@ -14,6 +14,9 @@ downloading, versions, upgrades, system requirements etc.
 * How-to
 * Security Considerations
 * Downloading the wallet
+
+https://pivx.org/downloads
+
 * Installation
 * Startup / initial synchronisation
 
@@ -30,4 +33,5 @@ You need to execute that first.  "./pivx-params.sh"
 ./pivx-cli help
 
 
+[plugin:page-inject](/pivx-core-wallet/installing-the-pivx-core-wallet/tabs)
 

@@ -1,5 +1,5 @@
 ---
-title: 'Getting Started with PIVX'
+title: 'Getting Started'
 date: '01-08-2014 00:00'
 slug: getting-started
 description: 'Your journey with PIVX starts here'

@@ -1,5 +1,5 @@
 ---
-title: 'The PIVX Core Wallet'
+title: 'PIVX Core Wallet'
 date: '01-08-2014 00:00'
 slug: pivx-core-wallet
 description: 'Setup, and run your own PIVX Core wallet'
