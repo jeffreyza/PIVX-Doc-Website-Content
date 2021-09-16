@@ -22,7 +22,7 @@ If you want to learn more about PIVX itself, head out to our official website: h
 The first thing you will need is a wallet to hold your PIVs. The PIVX Core Wallet is the solution that offers the most advantages:
 * It has all the functionalities of the PIVX network available natively
 * It is the most secure option
-* It is a full node, so you contribute to running the PIVX network
+* Running the Core Wallet adds a full node to the blockchain, so you contribute to running the PIVX network
 
 Head out to the [PIVX Core Wallet](/pivx-core-wallet) section of the documentation and decide if it's the right solution for you!
 
@@ -30,7 +30,9 @@ You can also choose a thirdparty wallet in [Mobile & Hardware Wallets](/mobile-h
 
 ### Buying PIVX
 
-Once your wallet is up and running, you need to pick an exchange and buy your first PIVs using either Fiat money or another Cryptocurrency. The PIVX project maintains a list of exchanges in the relevant section of the PIVX website: [Exchanges](https://pivx.org/exchanges)
+Once your wallet is up and running, you need to pick an exchange and buy your first PIVs using either Fiat money or another Cryptocurrency. The PIVX project maintains a list of exchanges in the relevant section of the PIVX website: [Exchanges](https://pivx.org/exchanges).
+
+You can then transfer your PIVs from the exchange to your core wallet.
 
 ### Additional resources
 PIVX Github: https://github.com/PIVX-Project

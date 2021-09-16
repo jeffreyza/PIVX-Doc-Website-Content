@@ -1,12 +1,12 @@
 ---
-title: 'Troubleshooting And Support'
+title: 'Knowledge Base'
 date: '01-08-2014 00:00'
 slug: troubleshooting
 description: 'Access the PiVX knowledge base and get support from the community'
 image: troubleshooting.png
 taxonomy:
     category:
-        - 'Troubleshooting'
+        - 'Knowledge Base'
     author:
         - 'The PIVX Team'
 ---

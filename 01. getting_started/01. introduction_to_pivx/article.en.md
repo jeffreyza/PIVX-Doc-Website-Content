@@ -9,5 +9,5 @@ taxonomy:
         - 'The PIVX Team'
 ---
 
-### Introduction to PIVX
+
 

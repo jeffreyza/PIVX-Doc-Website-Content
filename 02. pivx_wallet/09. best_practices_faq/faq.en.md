@@ -17,8 +17,6 @@ faqitems:
         response: "Make sure your wallet is fully synchronized; if your wallet is partially synchronized it will only show a partial balance."
       - question: "I bought PIVs a few years ago and haven't opened my wallet for ages. I had zPIVs and they don't appear in my wallet anymore. How do I recover them?"
         response: "Response to question 2"
-      - question: "Generic Question 3"
-        response: "Response to generic question 3"
   - corewallet:
     sectiontitle: Core Wallet
     questions:
@@ -27,12 +25,8 @@ faqitems:
         1. Make a backup of your wallet.dat\n
         2. Try using the -forcestart startup flag to see if it will recover from a failed start (If using Windows GUI, you will need to make a shortcut to the pivx-qt.exe file with the -forcestart flag; From the command line on all operating systems you can call the pivxd daemon with the switch -forcestart)\n
         If the above does not resolve the startup issue, try to resync the blockchain."
-      - question: "Core Wallet 2"
-        response: "Response to Core Wallet question 2"
-      - question: "Core Wallet 3"
-        response: "Response to Core Wallet question 3"
   - issues:
-    sectiontitle: Blockchain Synchronisation Issues
+    sectiontitle: Blockchain Synchronisation
     questions:
       - question: "My wallet has stopped syncing at block xxx. How can I fix it?"
         response: "The first step is to confirm whether you are on the right chain. To do so, follow the following steps:\n
@@ -53,6 +47,21 @@ faqitems:
         5. Wait for resync to complete.\n
         
         Steps 3/4 can also be ran from the command line using: **pivxd -daemon -resync**"
+      - question: "Does PIVX provide official blockchain snapshots? How do I create my own blockchain snapshot?"
+        response: "No, there is no official blockchain snapshot.\n
+        You can however create your own if you don't want to have to download the full blockchain in case you need to reinstall the core wallet. Here are the steps:\n
+        1. Shut down your wallet (not doing so will result in a corrupted snapshot)\n
+        2. Navigate to your PIVX data directory. Default values are:\n
+          - %appdata%/pivx on Windows\n
+          - ~/.pivx on Linux\n
+          - ~/Library/Application Support/PIVX on MacOS\n
+        2. Take a backup of the following folders:\n
+          - Blocks\n
+          - Chainstate\n
+          - Sporks\n
+          - Zerocoin\n
+        3. Zip these folders and keep them safe. Should you ever need to restore your blockchain simply copying over these folders to the same data directory mentioned above will allow your PIVX wallet to resume from where this snapshot was taken in terms of block height synced."
+
 ---
 
 

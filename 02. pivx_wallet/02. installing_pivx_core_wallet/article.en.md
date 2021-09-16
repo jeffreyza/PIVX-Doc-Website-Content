@@ -15,7 +15,7 @@ downloading, versions, upgrades, system requirements etc.
 * Security Considerations
 * Downloading the wallet
 
-https://pivx.org/downloads
+(https://pivx.org/downloads)
 
 * Installation
 * Startup / initial synchronisation
