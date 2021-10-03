@@ -11,19 +11,31 @@ taxonomy:
 
 #### Introduction
 
-This tutorial will guide you in detail through the steps necessary to setup a PIVX masternode on Ubuntu 18.04 64-bit remote server (VPS) that is controlled via your local Control wallet. Your local wallet is not required to be kept open and you can store it as a cold wallet whilst still collecting masternode payments. There are other ways to setup masternode, but this one is highly recommended as it’s one of the most secure ways. If you need any additional help, feel free to join PIVX Discord and ask for a help in #support channel. DO NOT receive any help or assistance through private messages, because there are many impersonators showing up as PIVX team members that are trying to steal coins from you! They might look legit, but it’s high likely they are scammers. No one ever from PIVX team will contact you privately and offer you help. Every help will be offered in public support channel!
+This tutorial will guide you through the steps necessary to setup a PIVX Masternode on a Linux Virtual Private Server (VPS) that is controlled via your local Control wallet.
+
+Setting up a PIVX masternode requires two separate core wallets:
+* 1 core wallet containing the 10'000 PIV that are locked as collateral for operating the masternode.
+* 1 core wallet running the masternode itself. It must be kept online 24/7 (see additional requirements below).
+
+The collateral wallet can be kept offline and still receive masternode payments. 
+
+!! NOTE If you need any additional help, feel free to join PIVX Discord and ask for a help in #support channel.
+
+!! NOTE On Discord, DO NOT receive any help or assistance through private messages; there are many impersonators showing up as PIVX team members that are trying to steal coins from you! They might look legit, but it’s high likely they are scammers. No one ever from PIVX team will contact you privately and offer you help. Every help will be offered in public support channel!
 
 
 #### Basic requirements:
 
+* Collateral Wallet:
+  * It can be any computer running the PIVX core wallet. It will run the Control wallet and hold the masternode coins.
+  * The collateral wallet needs to hold 10,000 PIV (it's recommended to have 10,001 to cover for transaction fees)
+  
+* Masternode server:
+  * Remote VPS with an OS supporting PIVX Core Wallet installed, with a fixed IP address and running 24/7
+  * Minimum VPS specs: 50 GB of storage space, 2 GB of RAM, 1 dedicated CPU core
+  * The latest PIVX Core wallet release installed on the masternode
 
-* Local system – your everyday computer, which will run Control wallet and hold the masternode coins
-* Remote VPS with Ubuntu Server 18.04 64-bit OS installed with unique IP address that is running 24/7
-* Minimum VPS specs: 50 GB of storage space, 2 GB of RAM, 1 dedicated CPU core
-* Latest PIVX Core wallet release: v5.0.1
-* 10,000 PIVX (good to have 10,001 to make sure you can cover transaction fee)
-
-!! (NOTE: You will need a different IP address for each masternode you plan to host.)  
+!! NOTE: You will need a different IP address for each masternode you plan to host. 
 
 #### Configuration of your Control wallet
 
