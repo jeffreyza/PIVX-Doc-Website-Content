@@ -9,29 +9,42 @@ taxonomy:
         - 'The PIVX Team'
 ---
 
-downloading, versions, upgrades, system requirements etc.
+### System Requirements
 
-* How-to
-* Security Considerations
-* Downloading the wallet
+To run the PiVX Core Wallet, you need a system with the following specificqtions:
+* Operating System: Windows, Linux, or MacOS
+* CPU: At least 2GHz
+* RAM: 2GB (4GB recommended)
+* Disk Space: At least 25GB available
 
-(https://pivx.org/downloads)
+### Downloads
 
-* Installation
-* Startup / initial synchronisation
+The latest version of the Core wallet can be found on (https://pivx.org/downloads).
 
-cd ~ && wget https://github.com/PIVX-Project/PIVX/releases/download/v5.3.0/pivx-5.3.0-Which.ever.one.is.right.for.your.pc
+!! NOTE Always download the Core wallet from the official website/Github
 
-tar -zxvf pivx-5.3.0-aarch64-linux-gnu.tar.gz && sudo rm -f pivx-5.3.0-aarch64-linux-gnu.tar.gz
+### Installation
+
+[plugin:page-inject](/pivx-core-wallet/installing-the-pivx-core-wallet/install-tabs)
+
+### Startup / initial synchronisation
+
+The first time you run the Core Wallet, the whole PiVX blockchain will be downloaded locally and verified. This will take approximately 5 hours with a faast internet connection, and will require approximately 20GB of space on disk.
+
+An empty wallet will also be created (stored in a **wallet.dat** file in the PiVX data folder).
+
+### Upgrades
+
+The PiVX Core Wallet is upgraded on a regular basis, in order to deliver new functionalities and fix bugs. There are two main types of releases:
+* Mandatory releases: The mandatory releases generally either add functionalities to the wallet or to the network (e.g. cold staking) and/or fix critical issues. They have to be installed by all users before a given date (enforcement date), that is communicated by the developers at the time the release is published.
+* Recommended/Optional releases: Optional releases are recommended for everyone but can generally be skipped safely. They either apply to only a subset of users (e.g. fix impacting masternodes only), or fix non-critical issues.
+
+!! NOTE All releases are communicated on the pivx.org website and on the #important-updates channel of the PiVX Discord server. It is critical to review them and install all updates before the enforcement block, in order to avoid technical issues that could result in lost PIVs.
+
+The procedure to upgrade the wallet is similar to an installation and is as easy as:
+* Shutdown current version of the wallet.
+* Install the new version of the core wallet by following the procedure corresponding to your system.
+* Restart the core wallet using the newly installed version.
 
 
-So before you enter "bin" there should be a file name "install-params.sh"
-You need to execute that first.  "./pivx-params.sh"
-
-./pivxd -daemon
-
-./pivx-cli help
-
-
-[plugin:page-inject](/pivx-core-wallet/installing-the-pivx-core-wallet/tabs)
 
