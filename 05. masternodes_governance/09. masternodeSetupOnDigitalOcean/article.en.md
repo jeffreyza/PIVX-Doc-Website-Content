@@ -129,7 +129,7 @@ After you have exactly 10,000 from a single transaction available on Ledger Live
 
 **Step 7.** Click “Save” to save the information. Then click the rocket button next to the newly created masternode entry in the main GUI window to launch it. This will require using your Ledger to sign the transaction with the private key controlling the 10,000 PIV.
 
-You are now an operator of a PIVX masternode! In a few minutes your new masternode will show as “ENABLED” in the SPMT software when you click the "Get Status of All Masternodes" button. And after a delay of a day or more you will start earning regular rewards that will be deposited to the address holding your 10,000 PIV (but as different transaction outputs). Thank you for supporting the PIVX network and the privacy and liberty it offers.
+You are now an operator of a PIVX masternode! In a few minutes your new masternode will show as “ENABLED” in the SPMT software when you click the "Get Status of All Masternodes" button. And after a few days you will start earning regular rewards that will be deposited to the address holding your 10,000 PIV (but as different transaction outputs). Thank you for supporting the PIVX network and the privacy and liberty it offers.
 
 ##To Explore Further
 
