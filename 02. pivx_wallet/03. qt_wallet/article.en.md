@@ -37,6 +37,3 @@ taxonomy:
 
 [plugin:page-inject](/pivx-core-wallet/qt-wallet/qt-wallet-tabs)
 
-* Spending / Receiving PIV (Transparent/Shielded/confirmations etc.)
-* Advanced configuration / Wallet debugging options
-
