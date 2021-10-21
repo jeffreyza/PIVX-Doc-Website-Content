@@ -17,6 +17,22 @@ faqitems:
         response: "Make sure your wallet is fully synchronized; if your wallet is partially synchronized it will only show a partial balance."
       - question: "I bought PIVs a few years ago and haven't opened my wallet for ages. I had zPIVs and they don't appear in my wallet anymore. How do I recover them?"
         response: "Response to question 2"
+      - question: "How do I backup my Wallet data?"
+        response: "![1.backup_wallet.png](1.backup_wallet.png?classes=center&resize=600)\n
+        #### In the QT/GUI PIVX as above:\n
+        1. Open the PIVX wallet, Select \"settings\"\n
+        2. Select \"Wallet Data\"\n
+        3. Select \"Wallet\"\n
+        4. Select the box which states \"Select folder ...\"\n
+        5. Save your PIVX wallet.dat in the directory of your choosing and name it whatever you like; when loading it into your PIVX wallet directory it must always be named wallet.dat.\n\n
+        
+        #### Via file browser:\n
+        1. Shutdown your PIVX Core Wallet\n
+        2. Navigate to the the PIVX data folder; default values are:\n
+          * On Windows: %appdata%/pivx\n
+          * On Linux: ~/.pivx\n
+          * On MacOS: ~/Library/Application Support/PIVX\n
+        3. Locate the wallet.dat file and copy it to a safe place\n"
   - corewallet:
     sectiontitle: Core Wallet
     questions:
