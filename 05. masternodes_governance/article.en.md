@@ -41,7 +41,7 @@ If you are self-hosting, you will need to acquire a VPS and download and run the
 
 ## Troubleshooting Masternode Issues
 
-If you have issues with your masternode, they may have already been solved by others. Please check the relevant FAQ at [Troubleshooting Masternodes](/masternodes-and-governance/ masternodes_troubleshooting_faq).
+If you have issues with your masternode, they may have already been solved by others. Please check the relevant FAQ at [Troubleshooting Masternodes](/masternodes-and-governance/masternodes_troubleshooting_faq).
 
 If your problem is not documented in the FAQ, feel free to raise it on the PIVX Discord.
 
