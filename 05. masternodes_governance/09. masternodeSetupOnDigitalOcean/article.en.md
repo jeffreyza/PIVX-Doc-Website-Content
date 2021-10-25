@@ -39,7 +39,7 @@ A VPS instance meeting the above requirements can be acquired at Digital Ocean a
 
 When configuring the VPS, it is best to add a firewall. The masternode software uses port 51472, and the firewall can be set through the Digital Ocean dashboard to only allow UDP and TCP packets for this port.
 
-From inside the Digital Ocean dashboard, you can invoke an command line console for your new VPS. This console opens inside a browser and gives all the functionality needed to run a masternode. There is no need to use SSH or other remote-interface software.
+From inside the Digital Ocean dashboard, you can invoke a command line console for your new VPS. This console opens inside a browser and gives all the functionality needed to run a masternode. There is no need to use SSH or other remote-interface software.
 
 ## Installing and Configuring the Masternode Software
 
