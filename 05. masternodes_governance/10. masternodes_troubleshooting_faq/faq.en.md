@@ -1,6 +1,6 @@
 ---
 title: 'Troubleshooting Masternodes'
-date: '10-14-2021 00:00'
+date: '14-10-2021 00:00'
 slug: masternodes-faq
 taxonomy:
     category:
