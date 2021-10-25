@@ -37,11 +37,11 @@ With the masternode software running and up to date on the blockchain, you will 
 
 You first need to decide if you want to self-host your masternode software or outsource it. If you want to outsource it, you can go to the provider, such as Allnodes, and follow their directions to start the software and start the masternode. 
 
-If you are self-hosting, you will need to acquire a VPS and download and run the software. Detailed instructions are given online--for example, detailed instructions on setting up a Digital Ocean VPS and configuring it using the SPMT software with Ledger Live can is given at [Running a Masternode on Digital Ocean](/masternodes_governance/masternodeSetupOnDigitalOcean).
+If you are self-hosting, you will need to acquire a VPS and download and run the software. Detailed instructions are given online--for example, detailed instructions on setting up a Digital Ocean VPS and configuring it using the SPMT software with Ledger Live can is given at [Running a Masternode on Digital Ocean](/masternodes-and-governance/masternode-digital-ocean).
 
 ## Troubleshooting Masternode Issues
 
-If you have issues with your masternode, they may have already been solved by others. Please check the relevant FAQ at [Troubleshooting Masternodes](/masternodes_governance/masternodes_troubleshooting_faq).
+If you have issues with your masternode, they may have already been solved by others. Please check the relevant FAQ at [Troubleshooting Masternodes](/masternodes-and-governance/ masternodes_troubleshooting_faq).
 
 If your problem is not documented in the FAQ, feel free to raise it on the PIVX Discord.
 
