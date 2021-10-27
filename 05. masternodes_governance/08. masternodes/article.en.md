@@ -69,23 +69,23 @@ First of all, make sure that you have 10,000 PIV in your wallet.
 2. Go to “Masternodes” tab.
 3. Click “Create Masternode Controller“.
     <p style="text-align: center;">
-    <img src="https://i1.wp.com/i.ibb.co/3M5kRRL/masternode-Tutorial1.jpg" width="880" alt="masternode-Tutorial1"/>
+    <img src="1_masternode_tab.png" width="880" alt="masternode-Tutorial1"/>
     </p>
 4. Masternode Creation Wizard intro window will open. It just reminds you that you need to have 10,000 PIV in your wallet in order to create a Masternode. Just click the “Next” button.
     <p style="text-align: center;">
-    <img src="https://i0.wp.com/i.ibb.co/s2wXRCg/masternode-Tutorial2.jpg" width="880" alt="masternode-Tutorial2"/>
+    <img src="2_Recommendations.png" width="880" alt="masternode-Tutorial2"/>
     </p>
 5. Now you need to type the Masternode name as per your wish (i.e. “Masternode01”) and then click “Next” button again.
     <p style="text-align: center;">
-    <img src="https://i2.wp.com/i.ibb.co/TYrHrdy/masternode-Tutorial3.jpg" width="880" alt="masternode-Tutorial3"/>
+    <img src="3_name_your_masternode.png" width="880" alt="masternode-Tutorial3"/>
     </p>
 6. Now you will be asked to type the IP address of your VPS (it might look similar to “182.214.90.12”), and then click “Next” button again.
     <p style="text-align: center;">
-    <img src="https://i1.wp.com/i.ibb.co/sR6Hdc3/masternode-Tutorial4.jpg" width="880" alt="masternode-Tutorial4"/>
+    <img src="4_IP_and_port.png" width="880" alt="masternode-Tutorial4"/>
     </p>
 7. If everything went successful, you should get a message “Master node created!”.
     <p style="text-align: center;">
-    <img src="https://i1.wp.com/i.ibb.co/vcxbTh3/masternode-Tutorial5.jpg" width="880" alt="masternode-Tutorial5"/>
+    <img src="5_masternode_created.png" width="880" alt="masternode-Tutorial5"/>
     </p>
 8. Status of the newly created Masternode will be “MISSING”. That is normal in this phase.
     <p style="text-align: center;">
@@ -156,11 +156,11 @@ Before you exit the editor, there are 3 parameters that you need to update with 
  * <YOUR\_OWN\_RPC\_PASSWORD\> – Set this to a STRONG password. i.e. password<– NO!!! Use something more complex for your own safety!
 * Now go back to Control wallet in Masternode tab, click on the 3 dots next to Masternode you created few steps above and then click “Info“.
     <p style="text-align: center;">
-    <img src="https://i0.wp.com/i.ibb.co/RCqxCZ9/masternode-Tutorial6.jpg" width="880" alt="masternode-Tutorial6"/>
+    <img src="7_Start.png" width="880" alt="masternode-Tutorial6"/>
     </p>
 * Now click icon next to “Export data to run the Masternode on a remote server“.
     <p style="text-align: center;">
-    <img src="https://i2.wp.com/i.ibb.co/4Pz2jrq/masternode-Tut1.jpg" width="480" alt="masternode-Tut1"/>
+    <img src="9_export_configuration.png" width="480" alt="masternode-Tut1"/>
     </p>
 * It will now ask you for a confirmation to export required data to run a Masternode. Click “OK” button.
     <p style="text-align: center;">
