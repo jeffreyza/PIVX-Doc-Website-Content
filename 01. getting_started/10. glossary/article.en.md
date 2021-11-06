@@ -23,3 +23,4 @@ Staking
 
 Cold Staking
 
+Treasury Budget
