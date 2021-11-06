@@ -67,6 +67,8 @@ These steps are shared between the Owner Wallet ("Cold Wallet") and the Staker W
 
 To send additional delegations, using the same addresses-pair, re-run step 3 of this guide.
 
+! NOTE: The 'hot' wallet has to be 'Unlocked for staking'
+
 ### Step-by-step setup (QT client)
 
 These steps are shared between the Owner Wallet ("Cold Wallet") and the Staker Wallet ("Hot Wallet"). If you control both wallets, you'll have to run all of them sequentially. If someone is providing you with a staking service each party will have to run his own steps sequentially.
@@ -110,6 +112,8 @@ These steps are shared between the Owner Wallet ("Cold Wallet") and the Staker W
 	```
 
 To send additional delegations, using the same addresses-pair, re-run step 3 of this guide.
+
+! NOTE: The 'hot' wallet has to be 'Unlocked for staking'
 
 ### Troubleshooting staking issues
 For any issues related to staking activation / rewards, please make sure you read the relevant FAQ at [Troubleshooting Staking](/staking/staking-faq)

@@ -14,7 +14,7 @@ faqitems:
     sectiontitle: Staking FAQ
     questions:
       - question: "Why is staking inactive on my core wallet?"
-        response: "Please start with making sure you meet all requirements listed on that page [Staking](/staking). If this doesn't help, run the **getstakingstatus** command in the core wallet command line or debug console; any 'false' value should be investigated as they are likely the cause for staking to be de-activated."
+        response: "Please start with making sure you meet all requirements listed on that page [Staking](/staking). If this doesn't help, run the **getstakingstatus** command in the core wallet command line or debug console; any 'false' value should be investigated as they are likely the cause for staking to be de-activated. *Note:* The 'hot' wallet in a cold staking setup has to be 'Unlocked for staking'"
       - question: "I have been staking X PIVs for Y days and haven't received a reward yet. Is anything broken?"
         response: "Verify the staking status of your core wallet/of your staking provider. If active, your next best option is to give it time, as the frequency on which a staker will receive rewards is completely random. The staking calculator on [https://pivx.org/proof-of-stake](https://pivx.org/proof-of-stake) will provide you with an expected return/staking frequency that can help manage your expectations."
       - question: "I just received a staking reward and my staking balance is now down to zero. What is happening?"
@@ -26,11 +26,6 @@ faqitems:
         * If Stake Splitting Threshold is set to 2'000, the output for the staking transaction will be a single UTXO of 1'902 PIV. As that UTXO will need 600 confirmations to stake again, you will be staking 0 PIV for 10 hours; that 'downtime in staking' scenario will repeat for the next stakes until the balance reaches 2'000.\n
         * If Stake Splitting Threshold is set to 500 (default value in Core Wallet), the output for the staking transaction will be 4 UTXO of 475.5 PIV. These 4 UTXO will need 600 confirmations to stake again; however, the next stake will only impact 3 of the 4 UTXO, so you will be staking 1'426 PIV while the staking transaction gets its 600 confirms.
         *"
-  - hotstaking:
-    sectiontitle: Hot Staking
-    questions:
-      - question: "Core Wallet 1"
-        response: "Response to Core Wallet question 1"
   - coldstaking:
     sectiontitle: Cold Staking
     questions:
