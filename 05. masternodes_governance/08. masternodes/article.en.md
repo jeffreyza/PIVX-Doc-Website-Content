@@ -83,9 +83,8 @@ First of all, make sure that you have 10,000 PIV in your wallet.
 ![masternode-Tutorial5](5_masternode_created.png?classes=center&resize=880)
 
 8. Status of the newly created Masternode will be “MISSING”. That is normal in this phase.
-    <p style="text-align: center;">
-    <img src="https://i1.wp.com/i.ibb.co/0Zh59Bs/masternode-Tut2.jpg" width="880" alt="masternode-Tutorial5"/>
-    </p>
+![masternode-Tutorial5](6_masternode_missing.png?classes=center&resize=880)
+
 
 We will get back here to Control wallet little bit later after we setup VPS.
 
@@ -156,13 +155,11 @@ Before you exit the editor, there are 3 parameters that you need to update with 
 ![masternode-Tut1](9_export_configuration.png?classes=center&resize=480)
 
 * It will now ask you for a confirmation to export required data to run a Masternode. Click “OK” button.
-    <p style="text-align: center;">
-    <img src="https://i1.wp.com/i.ibb.co/549SsMD/masternode-Tutorial7.jpg" width="480" alt="masternode-Tutorial7"/>
-    </p>
+![masternode-Tut2](10.confirm_export_config.png?classes=center&resize=480)
+
 * Now you will get a message that required info was successfully exported (copied to your clipboard) and now you should paste it in your pivx.conf file on your VPS under themaxconnections=256 line in pivx.conf file.
-    <p style="text-align: center;">
-    <img src="https://i1.wp.com/i.ibb.co/chgQDRD/masternode-Tutorial8.jpg" width="880" alt="masternode-Tutorial8"/>
-    </p>
+![masternode-Tut3](11.confirm_export_config2.png?classes=center&resize=880)
+
 * After all, your pivx.conf file on your VPS should look like the following:
 
         rpcuser=root
