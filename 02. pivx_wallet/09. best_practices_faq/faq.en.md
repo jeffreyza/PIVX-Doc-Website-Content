@@ -48,7 +48,9 @@ faqitems:
         response: "The first step is to confirm whether you are on the right chain. To do so, follow the following steps:\n
         * Run the **getbestblockhash** command in the debug console\n
         * Check whether that block is available on the PIVX explorer: https://explorer.pivx.link/\n
-        * If it is not available there, your core wallet is on a forked chain, and needs to be resynced from scratch (see below for steps)"
+        * If it is not available there, your core wallet is on a forked chain, and needs to be resynced from scratch (see below for steps)\n
+        If you're using the QT wallet, the steps are all summarized on the picture below:\n
+        ![2.fork_check.png](2.fork_check.png?classes=center&resize=600)"
       - question: "How did my Core Wallet end up being on a forked chain?"
         response: "There are a few possibilities, among which:\n
         * Connecting to 'bad' peers that veer you onto an orphan chain.\n
