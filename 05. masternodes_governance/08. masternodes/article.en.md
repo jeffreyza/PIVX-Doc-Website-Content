@@ -215,10 +215,8 @@ ________________________________________________________________________________
 NOTE: Wait for 15 confirmations on the blockchain for transaction with the masternode collateral before proceeding with the next steps below.
 
 Now go back to your Control wallet -> Masternodes -> Click “Start Inactive/s”
-Status will change from MISSING -> ACTIVE.
-    <p style="text-align: center;">
-    <img src="https://i1.wp.com/i.ibb.co/xGn8Rm1/masternode-Tutorial9.jpg" width="880" alt="masternode-Tutorial9"/>
-    </p>
+Status will change from MISSING -> PRE_ENABLED.
+![masternode-Tut3](12.pre_enabled.png?classes=center&resize=880)
 
 Now go back to your VPS and type:
 
@@ -230,13 +228,14 @@ Congratulations! You have successfully started your masternode!
 
 ADDITIONAL NOTES:
 
-1. If the output of getmasternodestatus is fine, then you are perfectly fine. But have in mind that it can take up to 2 hours for masternode to change status from ACTIVE to ENABLED in the masternode list.
+1. If the output of getmasternodestatus is fine, then you are perfectly fine. But have in mind that it can take up to 2 hours for masternode to change status from PRE_ENABLED to ENABLED in the masternode list.
 
 2. First masternode reward requires a longer waiting period. It usually takes 3-5 days to receive a first masternode reward.
 
 3. You can close the Control wallet, as it is not needed. Only the VPS should be working 24/7.
 
-If you have any troubles or issues, feel free to join [PIVX Discord](https://discord.pivx.org/) and post your question in #support channel. Again, DO NOT ever receive any help or assistance through private messages, as there are many scammers out there trying to steal your coins, even if they look the same as developers, admins or support staff. Every help ever will be provided through public channels.
+If you have any troubles or issues, feel free to join [PIVX Discord](https://discord.pivx.org/) and post your question in #support channel.
+!! NOTE: Again, DO NOT ever receive any help or assistance through private messages, as there are many scammers out there trying to steal your coins, even if they look the same as developers, admins or support staff. Every help ever will be provided through public channels.
 
 #### Shutting down a Masternode
 
