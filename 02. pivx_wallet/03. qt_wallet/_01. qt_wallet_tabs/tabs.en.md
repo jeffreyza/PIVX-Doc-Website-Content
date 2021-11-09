@@ -23,7 +23,9 @@ tabitems:
     5. If you want to spend specific UTXOs, you can use the 'Coin Control' dialog to select the PIVs you want to send. It can be useful if you are staking and want to keep particular UTXOs untouched so they don't have to wait 600 confirmations before they can stake again. You can also customize the address on which the 'change' (unspent amount on the UTXOs you selected) has to be sent.\n
     6. All the transaction characteristics will be summarized in a single dialog when you click Send. If you're ok with the details click on 'SEND'. The transaction will be broadcast to the network instantly for confirmation.\n\n
     
-    Steps 2 to 4 can be made simpler if your counterparty generated a 'payment request' URL. In that case you can paste it in the 'Open URI' dialog to have the address, label, and amount auto-populated.\n
+    Steps 2 to 4 can be made simpler if your counterparty generated a 'payment request' URL. In that case you can paste it in the 'Open URI' dialog to have the address, label, and amount auto-populated:\n
+    <center><iframe width='470' height='291' src='https://www.youtube.com/embed/M2BYEZe4u7E' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></center>
+    
     
     !!! NOTE: Shielding/Un-shielding coins is as simple as sending them to one of your Shield/Transparent address."
   - name: RECEIVE
@@ -39,7 +41,8 @@ tabitems:
   - name: CONTACTS
     title: "CONTACTS"
     content: "![4.CONTACTS.png](4.CONTACTS.png?classes=center&resize=600)\n\n
-    This is your contacts list. You can input all the third-party addresses you use regularly (e.g. regular payment addresses, exchanges, etc.) for easier access \n"
+    This is your contacts list. You can input all the third-party addresses you use regularly (e.g. regular payment addresses, exchanges, etc.) for easier access: \n
+    <center><iframe width='470' height='291' src='https://www.youtube.com/embed/U7O_C2bKuDk' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></center>"
   - name: MASTERNODES
     title: "MASTERNODES"
     content: "![5.MASTERNODES.png](5.MASTERNODES.png?classes=center&resize=600)\n\n
