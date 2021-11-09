@@ -39,6 +39,10 @@ The collateral wallet can be kept offline and still receive masternode payments.
 
 #### Configuration of your Control wallet
 
+<center>
+<iframe width="941" height="582" src="https://www.youtube.com/embed/lu30liuu-lU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
 **Step 1** – Download PIVX wallet
 
 

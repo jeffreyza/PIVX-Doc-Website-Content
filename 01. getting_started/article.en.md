@@ -21,6 +21,10 @@ PIVX (Protected Instant Verification Transaction) is a privacy-centric coin, tha
 
 If you want to learn more about PIVX itself, head out to our official website: https://pivx.org/, and read the PIVX Economics Whitepaper available on the [PIVX Economics](https://pivx.org/economics?target=_blank) page.
 
+<center>
+<iframe width="424" height="238" src="https://www.youtube.com/embed/bS0949CgF_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
 ## Getting Started with PIVX
 
 The first thing you will need is a wallet to hold your PIVs. The PIVX Core Wallet is the solution that offers the most advantages:
