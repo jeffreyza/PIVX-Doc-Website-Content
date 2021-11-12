@@ -1,6 +1,6 @@
 ---
 title: 'PIVX Core Wallet'
-date: '01-08-2014 00:00'
+date: '14-10-2021 00:00'
 slug: pivx-core-wallet
 description: 'Setup, and run your own PIVX Core wallet'
 image: wallets.png

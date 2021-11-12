@@ -1,6 +1,6 @@
 ---
 title: 'Masternodes And Governance'
-date: '01-08-2014 00:00'
+date: '14-10-2021 00:00'
 slug: masternodes-and-governance
 description: 'Discover the PIVX Governance model and get started with your Masternode'
 image: masternodes.png

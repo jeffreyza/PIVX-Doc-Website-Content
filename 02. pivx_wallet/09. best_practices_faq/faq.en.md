@@ -1,6 +1,6 @@
 ---
 title: 'Core Wallet Best Practices / FAQ'
-date: '01-08-2014 00:00'
+date: '14-10-2021 00:00'
 slug: core-wallet-faq
 taxonomy:
     category:

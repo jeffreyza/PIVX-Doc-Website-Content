@@ -1,6 +1,6 @@
 ---
 title: 'Buying an Amazon card with the Flits Wallet'
-date: '01-08-2014 00:00'
+date: '14-10-2021 00:00'
 slug: flits-wallet
 taxonomy:
     category:

@@ -1,6 +1,6 @@
 ---
 title: 'PIVX Core Wallet Debugging Features'
-date: '01-08-2014 00:00'
+date: '14-10-2021 00:00'
 slug: wallet-debugging-features
 taxonomy:
     category:

@@ -1,6 +1,6 @@
 ---
 title: 'Mobile & Hardware Wallets'
-date: '01-08-2014 00:00'
+date: '14-10-2021 00:00'
 slug: mobile-hardware-wallets
 description: 'Discover some of the third-party wallets our community uses'
 image: wallets.png

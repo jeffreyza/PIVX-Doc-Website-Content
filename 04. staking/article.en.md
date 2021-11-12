@@ -1,6 +1,6 @@
 ---
 title: 'Staking'
-date: '01-08-2014 00:00'
+date: '14-10-2021 00:00'
 slug: staking
 description: 'Stake your PIV, help secure the network, and earn rewards'
 image: staking.png
