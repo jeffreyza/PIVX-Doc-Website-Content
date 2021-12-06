@@ -9,7 +9,7 @@ taxonomy:
         - 'The PIVX Team'
 ---
 
-#### Introduction
+### Introduction
 
 This tutorial will guide you through the steps necessary to setup a PIVX Masternode on a Linux Virtual Private Server (VPS) that is controlled via your local Control wallet.
 
@@ -24,7 +24,7 @@ The collateral wallet can be kept offline and still receive masternode payments.
 !! NOTE On Discord, DO NOT receive any help or assistance through private messages; there are many impersonators showing up as PIVX team members that are trying to steal coins from you! They might look legit, but it’s high likely they are scammers. No one ever from PIVX team will contact you privately and offer you help. Every help will be offered in public support channel!
 
 
-#### Basic requirements:
+### Basic requirements:
 
 * Collateral Wallet:
   * It can be any computer running the PIVX core wallet. It will run the Control wallet and hold the masternode coins.
@@ -37,13 +37,13 @@ The collateral wallet can be kept offline and still receive masternode payments.
 
 !! NOTE: You will need a different IP address for each masternode you plan to host. 
 
-#### Configuration of your Control wallet
+### Configuration of your Control wallet
 
 <center>
 <iframe width="941" height="582" src="https://www.youtube.com/embed/lu30liuu-lU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
-**Step 1** – Download PIVX wallet
+#### Step 1 – Download PIVX wallet
 
 
 Download the most recent version of the PIVX Core wallet here:
@@ -51,7 +51,7 @@ Download the most recent version of the PIVX Core wallet here:
 https://github.com/PIVX-Project/PIVX/releases/latest
 
 
-**Step 2** – Extract and install the wallet
+#### Step 2 – Extract and install the wallet
 
 
 Choose the proper version for your operating system. Extract it, install and run the wallet. After starting the wallet for the first time, it will offer you to make a default PIVX data directory. Depending on your operating system, the default directory should be similar to:
@@ -64,7 +64,7 @@ The above example of default directory is Windows based.
 If you choose your own location ensure that you record where that is.
 
 
-**Step 3** – Create a Masternode using Creation Wizard
+#### Step 3 – Create a Masternode using Creation Wizard
 
 
 First of all, make sure that you have 10,000 PIV in your wallet.
@@ -90,17 +90,59 @@ First of all, make sure that you have 10,000 PIV in your wallet.
 ![masternode-Tutorial5](6_masternode_missing.png?classes=center&resize=880)
 
 
-We will get back here to Control wallet little bit later after we setup VPS.
+#### Step 3 bis - Create a Masternode from the Command line:
+1. Download the latest PIVX wallet release (Skip if you already have it installed)
+```
+	cd ~ && wget https://github.com/PIVX-Project/PIVX/releases/download/v5.0.1/pivx-5.0.1-x86_64-linux-gnu.tar.gz
+	tar -zxvf pivx-5.0.1-x86_64-linux-gnu.tar.gz && sudo rm -f pivx-5.0.1-x86_64-linux-gnu.tar.gz
+```
+2. Open your PIVX wallet and let it sync (Skip if you already have it installed and synchronized)
+```
+	cd ~/pivx-5.0.1/bin
+	./pivxd -daemon
+```
+3. Generate a new PIVX address and send exactly 10K PIVX to it
+```	
+	./pivx-cli getnewaddress
+```	
+If you are sending from within this wallet to the new address then run this command:
+```	
+	./pivx-cli sendtoaddress ADDRESSfromGETNEWADDRESS 10000
+```
+4. Get the masternode private key and masternode outputs, Save them to a text document for the upcoming steps:
+```
+	./pivx-cli createmasternodekey
+	./pivx-cli getmasternodeoutputs
+```
 
-#### VPS Remote wallet installation
+	You can now close your PIVX Control wallet by running the following command:
+```
+	./pivx-cli stop
+```
+
+5. We need to now add the information above to our "Masternode.conf file"
+```
+	cd ~/.pivx
+```
+Open masternode.conf with your favorite text editor and add in the following:
+```
+	{Name of Masternode} {VPS IP Address}:51472 {The result of createmasternodekey you saved in the text doc.} {Result of the getmasternodeoutputs} {The Single Digit Number after Masternode Ouputs}
+```
+Sample Input:
+```
+	mn1 127.0.0.2:51472 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0
+```
+
+** We will get back here to Control wallet little bit later after we setup VPS. **
+
+### VPS Remote wallet installation
 
 These procedures are for a clean server install. If you have an existing installation then some steps may not be required. Performing the steps is unlikely to have any effect on the system. Securing the server has NOT been included in this tutorial. That is your responsibility. Although it’s not required, a great guide can be found [here](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-16-04) to assist you.
-
 
 To be able to access a VPS, you need a software/SSH client like [PuTTY](https://www.putty.org/) for example. You can choose between alternatives as well, but this tutorial will not include installation of such software. After you successfully login to your VPS, follow the further steps.
 
 
-**Step 1** – Install most recent security patches
+#### Step 1 – Install most recent security patches
 
 
 A clean server install will likely need some software updates. Enter the following command which will bring the system up to date:
@@ -108,7 +150,7 @@ A clean server install will likely need some software updates. Enter the followi
 
     sudo apt-get update && sudo apt-get -y upgrade
 
-**Step 2** – Download and extract PIVX Core wallet for Linux
+#### Step 2 – Download and extract PIVX Core wallet for Linux
 
 
 Enter the following command lines one by one to download and extract PIVX wallet (Note these and later commands are for version 5.0.1. You should replace this with the latest version.):
@@ -121,7 +163,7 @@ Enter the following command lines one by one to download and extract PIVX wallet
 
 Masternode Configuration
 
-**Step 3** – Create the masternode configuration file and populate
+#### Step 3 – Create the masternode configuration file and populate
 
 
 Before the node can operate as a masternode a custom configuration file needs to be created. Since we have not loaded the wallet yet, we will create the necessary directories and the configuration file by typing the following command lines one by one:
@@ -180,9 +222,9 @@ Before you exit the editor, there are 3 parameters that you need to update with 
 Save and exit the editor by pressing CTRL-O and Enter to save and CTRL-X to exit the editor.
 
 
-#### Start your Masternode
+### Start your Masternode
 
- **Step 4** – Load the masternode
+#### Step 4 – Load the masternode
 
 With the configuration created we are now ready to load the masternode and sync to the network. Load the masternode by typing the following command:
 
@@ -222,6 +264,17 @@ Now go back to your Control wallet -> Masternodes -> Click “Start Inactive/s�
 Status will change from MISSING -> PRE_ENABLED.
 ![masternode-Tut3](12.pre_enabled.png?classes=center&resize=880)
 
+** From the command line: **
+If you have a password set on your wallet you will first need to unlock it (90 means it will be unlocked for 90 seconds):
+```
+./pivx-cli walletpassphrase YOURPASSWORD 90
+```
+
+You can now proceed to start your masternode:
+```
+startmasternode missing y
+```
+
 Now go back to your VPS and type:
 
     ./pivx-cli startmasternode local false
@@ -241,7 +294,7 @@ ADDITIONAL NOTES:
 If you have any troubles or issues, feel free to join [PIVX Discord](https://discord.pivx.org/) and post your question in #support channel.
 !! NOTE: Again, DO NOT ever receive any help or assistance through private messages, as there are many scammers out there trying to steal your coins, even if they look the same as developers, admins or support staff. Every help ever will be provided through public channels.
 
-#### Shutting down a Masternode
+### Shutting down a Masternode
 
 1) How do I stop running masternode on my VPS and delete masternode from my PIVX Control wallet?
 
