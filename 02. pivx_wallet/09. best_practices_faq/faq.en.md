@@ -15,6 +15,7 @@ faqitems:
     questions:
       - question: "My balance is 0 or is incorrect; where are my PIVs?"
         response: "Make sure your wallet is fully synchronized; if your wallet is partially synchronized it will only show a partial balance."
+        shortcut: "incorrect_balance"
       - question: "I bought PIVs a few years ago and haven't opened my wallet for ages. I had zPIVs and they don't appear in my wallet anymore. How do I recover them?"
         response: "Response to question 2"
       - question: "How do I backup my Wallet data?"
@@ -51,11 +52,13 @@ faqitems:
         * If it is not available there, your core wallet is on a forked chain, and needs to be resynced from scratch (see below for steps)\n
         If you're using the QT wallet, the steps are all summarized on the picture below:\n
         ![2.fork_check.png](2.fork_check.png?classes=center&resize=600)"
+        shortcut: "forked_chain"
       - question: "How did my Core Wallet end up being on a forked chain?"
         response: "There are a few possibilities, among which:\n
         * Connecting to 'bad' peers that veer you onto an orphan chain.\n
         * Having too few peers, making net consensus less reliable.\n
         * General connectivity issues (net speed, reliability)."
+        shortcut: "forked_chain_why"
       - question: "How do I resync my core wallet from scratch?"
         response: "
         1. Stop the wallet.\n
