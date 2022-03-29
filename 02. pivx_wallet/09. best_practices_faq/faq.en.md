@@ -17,7 +17,8 @@ faqitems:
         response: "Make sure your wallet is fully synchronized; if your wallet is partially synchronized it will only show a partial balance."
         shortcut: "incorrect_balance"
       - question: "I bought PIVs a few years ago and haven't opened my wallet for ages. I had zPIVs and they don't appear in my wallet anymore. How do I recover them?"
-        response: "Response to question 2"
+        response: "zPIVs have been retired several years ago following the change of protocol (from Zerocoin to Shield). The grace period that was provided for recovery is now over so any zPIV not transfered before that date cannot be recovered."
+        shortcut: "zpiv"
       - question: "How do I backup my Wallet data?"
         response: "![1.backup_wallet.png](1.backup_wallet.png?classes=center&resize=600)\n
         #### In the QT/GUI PIVX as above:\n
@@ -34,6 +35,7 @@ faqitems:
           * On Linux: ~/.pivx\n
           * On MacOS: ~/Library/Application Support/PIVX\n
         3. Locate the wallet.dat file and copy it to a safe place\n"
+        shortcut: "backup"
   - corewallet:
     sectiontitle: Core Wallet
     questions:
@@ -83,6 +85,7 @@ faqitems:
           - Sporks\n
           - Zerocoin\n
         3. Zip these folders and keep them safe. Should you ever need to restore your blockchain simply copying over these folders to the same data directory mentioned above will allow your PIVX wallet to resume from where this snapshot was taken in terms of block height synced."
+        shortcut: "snapshot"
 
 ---
 
