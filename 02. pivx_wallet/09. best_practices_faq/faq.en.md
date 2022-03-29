@@ -68,6 +68,7 @@ faqitems:
         5. Wait for resync to complete.\n
         
         Steps 3/4 can also be ran from the command line using: **pivxd -daemon -resync**"
+        shortcut: "resync"
       - question: "Does PIVX provide official blockchain snapshots? How do I create my own blockchain snapshot?"
         response: "No, there is no official blockchain snapshot.\n
         You can however create your own if you don't want to have to download the full blockchain in case you need to reinstall the core wallet. Here are the steps:\n
