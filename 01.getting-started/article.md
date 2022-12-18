@@ -8,6 +8,10 @@ taxonomy:
         - 'The PIVX Team'
 ---
 
+Your journey with PIVX starts here!
+
+===
+
 Welcome to the PIVX Documentation website, check out our quickstart guides, tutorials, and FAQs!
 
 The community is very active on Discord, so [Join us on the PIVX Discord!](https://discord.pivx.org/)
