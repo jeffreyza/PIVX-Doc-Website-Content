@@ -1,9 +1,6 @@
 ---
 title: 'Getting Started'
 date: '14-10-2021 00:00'
-slug: getting-started
-description: 'Your journey with PIVX starts here'
-image: getting-started.png
 taxonomy:
     category:
         - 'Getting Started'
