@@ -1,12 +1,11 @@
 ---
 title: 'Glossary'
 date: '14-10-2021 00:00'
-slug: glossary
 taxonomy:
     category:
         - 'Getting Started'
     author:
-        - 'Bob Burns'
+        - 'The PIVX Team'
 ---
 
 ### Glossary of the main PIVX terms and definitions
