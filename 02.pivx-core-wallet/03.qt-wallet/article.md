@@ -30,7 +30,7 @@ taxonomy:
   * Staking only: Wallet is unlocked only for staking, no transactions can be input.
 11. **Theme selection:** Switch between light and dark themes
 12. Link to **Wallet FAQ**
-13. **QR Code** that corresponds to your PiVX address. Clicking on it enlarges the QR code and displays your address.
+13. **QR Code** that corresponds to your PIVX address. Clicking on it enlarges the QR code and displays your address.
 
 ### Tabs of the core wallet
 
