@@ -8,7 +8,7 @@ taxonomy:
         - 'The PIVX Team'
 ---
 
-The PiVX Core Wallet contains a wealth of advanced troubleshooting/debugging features, that can be used to diagnose any issues and finetune your configuration.
+The PIVX Core Wallet contains a wealth of advanced troubleshooting/debugging features, that can be used to diagnose any issues and finetune your configuration.
 
 ### Wallet Data
 
