@@ -7,9 +7,9 @@ PIVX is an open source community-driven cryptocurrency.
 
 Information and specs at [PIVX.org](https://www.pivx.org/). Join the community at [PIVX Discord](https://discord.PIVX.org).
 
-## Support Website
+## Documentation Website
 
-This repository is the master repository for the pivx.org/documentation website.
+This repository is the master repository for the [docs.pivx.org](https://docs.pivx.org) website.
 All pages are based on the Grav Markdown format (https://learn.getgrav.org/17/content/markdown), supported by custom themes/layouts.
 
 ## Contribution Process
