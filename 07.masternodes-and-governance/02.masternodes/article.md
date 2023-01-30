@@ -91,12 +91,12 @@ First of all, make sure that you have 10,000 PIV in your wallet.
 #### Step 3 bis - Create a Masternode from the Command line:
 1. Download the latest PIVX wallet release (Skip if you already have it installed)
 ```
-	cd ~ && wget https://github.com/PIVX-Project/PIVX/releases/download/v5.4.0/pivx-5.4.0-x86_64-linux-gnu.tar.gz
-	tar -zxvf pivx-5.4.0-x86_64-linux-gnu.tar.gz && sudo rm -f pivx-5.4.0-x86_64-linux-gnu.tar.gz
+	cd ~ && wget https://github.com/PIVX-Project/PIVX/releases/download/v5.5.0/pivx-5.5.0-x86_64-linux-gnu.tar.gz
+	tar -zxvf pivx-5.5.0-x86_64-linux-gnu.tar.gz && sudo rm -f pivx-5.5.0-x86_64-linux-gnu.tar.gz
 ```
 2. Open your PIVX wallet and let it sync (Skip if you already have it installed and synchronized)
 ```
-	cd ~ && cd ~/pivx-5.4.0/bin && ./pivxd -daemon
+	cd ~ && cd ~/pivx-5.5.0/bin && ./pivxd -daemon
 ```
 3. Generate a new PIVX address and send exactly 10K PIVX to it
 ```	
@@ -153,9 +153,9 @@ A clean server install will likely need some software updates. Enter the followi
 Enter the following command lines one by one to download and extract PIVX wallet (Note these and later commands are for version 5.0.1. You should replace this with the latest version.):
 
 
-    cd ~ && wget https://github.com/PIVX-Project/PIVX/releases/download/v5.4.0/pivx-5.4.0-x86_64-linux-gnu.tar.gz
+    cd ~ && wget https://github.com/PIVX-Project/PIVX/releases/download/v5.5.0/pivx-5.5.0-x86_64-linux-gnu.tar.gz
 
-    tar -zxvf pivx-5.4.0-x86_64-linux-gnu.tar.gz && sudo rm -f pivx-5.4.0-x86_64-linux-gnu.tar.gz
+    tar -zxvf pivx-5.5.0-x86_64-linux-gnu.tar.gz && sudo rm -f pivx-5.5.0-x86_64-linux-gnu.tar.gz
 
 
 Masternode Configuration
@@ -212,8 +212,8 @@ Before you exit the editor, there are 3 parameters that you need to update with 
         daemon=1
         maxconnections=256
         masternode=1
-        externalip=101.168.87.207
-        masternodeaddr=101.168.87.207:51472
+        externalip=Your VPS IP Address here
+        masternodeaddr=Your VPS IP Address here:51472
         masternodeprivkey=87haGjw6ABVZfZTcMNX5c1E3HUVH4qWcdc823RBDHsGC5P8FohW
 
 Save and exit the editor by pressing CTRL-O and Enter to save and CTRL-X to exit the editor.
@@ -225,7 +225,7 @@ Save and exit the editor by pressing CTRL-O and Enter to save and CTRL-X to exit
 
 With the configuration created we are now ready to load the masternode and sync to the network. Load the masternode by typing the following command:
 
-        cd ~ && cd ~/pivx-5.4.0/bin && ./pivxd
+        cd ~ && cd ~/pivx-5.5.0/bin && ./pivxd
 
 You will get the message “PIVX server starting”. To follow the progress until the wallet is fully loaded and synchronized, type:
 
